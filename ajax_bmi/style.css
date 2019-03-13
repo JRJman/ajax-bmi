@@ -1,0 +1,70 @@
+#geslacht {
+  display: none;
+}
+
+body {
+  text-align: center;
+}
+
+#titel {
+  background-color: red;
+  font-family: "Century";
+  padding: 20px;
+  color: white;
+}
+
+#input {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#factoren {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.button {
+  color: white;
+  background-color: red;
+  border: solid;
+  border-color: red;
+  border-radius: 12px;
+  height: 40px;
+  width: 170px;
+  font-size: 24px;
+  margin: 0px 100px;
+}
+
+#bereken {
+  background-color: white;
+  border: solid;
+  border-color: #00ff00;
+  font-size: 26px;
+  height: 100px;
+  padding: 0px 15px;
+  border-radius: 12px;
+}
+
+.ondergewicht {
+  color: #00ffff;
+}
+
+.normaal {
+  color: #00ff00;
+}
+
+.overgewicht {
+  color: #b3b300;
+}
+
+.class1 {
+  color: #ffff00;
+}
+
+.class2 {
+  color: #ff751a;
+}
+
+.class3 {
+  color: #ff0000;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="Author:" content="Joep Janssen">
+    <title>AJAX BMI</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="titel">
+        <h1>Bereken je BMI</h1>
+      </div>
+      <div id="input">
+        <div id="geslachten">
+          <h2>Geslacht</h2>
+          <input type="button" class="button" id="man" value="man">
+          <input type="button" class="button" id="vrouw" value="vrouw">
+        </div>
+        <div id="factoren">
+          <div class="factoor">
+            <h4>Leeftijd</h4>
+            <input type="text" id="leeftijd" placeholder="typ je leeftijd in" size="12">
+          </div>
+          <div class="factoor">
+            <h4>Gewicht(in kg)</h4>
+            <input type="text" id="gewicht" placeholder="typ je gewicht in" size="12">
+          </div>
+          <div class="factoor">
+            <h4>Lengte(in cm)</h4>
+            <input type="text" id="lengte" placeholder="typ je lengte  in" size="12">
+          </div>
+        </div>
+      </div>
+      <div>
+        <p id="waarschuwing"></p>
+        <input type="button" id="bereken" value="Bereken mijn BMI">
+      </div>
+      <div>
+        <input type="text" id="geslacht">
+      </div>
+      <div>
+        <h2>Conslusion BMI</h2>
+      </div>
+      <div id="conclusion"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="ajax.js"></script>
+  </body>
+</html>
